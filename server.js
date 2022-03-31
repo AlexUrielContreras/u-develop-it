@@ -50,7 +50,7 @@ app.get('/api/candidates/:id', (req, res) => {
         })
     })
 })
-// Update a candidate party aff
+// Update a candidate party 
 app.put('/api/candidates/:id', (req, res) => {
     const errors = inputCheck(req.body, 'party_id');
 
